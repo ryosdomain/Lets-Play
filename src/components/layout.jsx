@@ -17,7 +17,7 @@ const layout = () => {
         className={`position fixed inset-0 top-0 left-0 z-50 bg-black/95 transition duration-500  ${loading ? "opacity-100" : "opacity-0 invisible pointer-events-none"}`}
       >
         <h1 className="text-5xl text-center text-yellow-400 flex items-center justify-center h-full font-bold  animate-pulse px-5 className={`transition-all duration-700 ${loading ? 'blur-xl' : 'blur-none'}`}">
-          Hello Madam Jee!
+          Loading!
         </h1>
       </div>
       <div>
